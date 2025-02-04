@@ -3,11 +3,21 @@
 /* Default Properties */
 
 * {
-  overflow: hidden;
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
+/* Hide scrollbar but keep scrolling */
+element {
+  overflow: scroll; /* Keeps scrolling */
+  scrollbar-width: none; /* Firefox */
+}
+
+element::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
 
 /* Home Menu and Nav Bar */
 
