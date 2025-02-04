@@ -9,12 +9,12 @@
 }
 
 /* Hide scrollbar but keep scrolling */
-element {
+body {
   overflow: scroll; /* Keeps scrolling */
   scrollbar-width: none; /* Firefox */
 }
 
-element::-webkit-scrollbar {
+body::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Edge */
 }
 
